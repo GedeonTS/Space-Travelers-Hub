@@ -24,7 +24,7 @@ export const fetchRocket = () => async (dispatch) => {
   dispatch(getRocket(rockets));
 };
 
-const rocketReducer = (state = [], action) => {
+const rocketReducer = (state = [], action = {}) => {
   if (action.type === GET_ROCKET) {
     return action.payload;
   }

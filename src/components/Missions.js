@@ -10,7 +10,7 @@ const bgWhite = {
   backgroundColor: '#fff',
 };
 
-const Missions = () => {
+function Missions() {
   const missions = useSelector((state) => state.missions);
 
   const dispatch = useDispatch();
@@ -73,6 +73,6 @@ const Missions = () => {
       </tbody>
     </table>
   );
-};
+}
 
 export default Missions;

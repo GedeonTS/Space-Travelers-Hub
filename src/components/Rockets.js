@@ -2,7 +2,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { reserveRocket } from '../redux/rockets/rockets';
 import Rocket from './rocket';
 
-const Rockets = () => {
+function Rockets() {
   const rockets = useSelector((state) => state.rocketList);
 
   const dispatch = useDispatch();
@@ -24,6 +24,6 @@ const Rockets = () => {
       ))}
     </div>
   );
-};
+}
 
 export default Rockets;
