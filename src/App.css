@@ -1,119 +1,119 @@
 .container {
-    width: 100vw;
-    height: 100vh;
-  }
-  
-  header {
-    width: 100%;
-    height: 12%;
-    display: flex;
-    border-bottom: solid 1px grey;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  .title {
-    display: flex;
-  }
-  
-  .logo {
-    width: 3rem;
-    height: 3rem;
-    margin-left: 3rem;
-  }
-  
-  header h2 {
-    margin-left: 1rem;
-  }
-  
-  nav {
-    color: #00f;
-    margin-right: 5%;
-  }
-  
-  nav .active {
-    text-decoration: underline;
-  }
-  
-  .menu-item1 {
-    text-decoration: none;
-  }
-  
-  .menu-item2 {
-    text-decoration: none;
-    margin-left: 1rem;
-  }
-  
-  .bg {
-    background-color: white;
-    height: 10rem;
-  }
-  
-  .menu-item3 {
-    text-decoration: none;
-    margin-left: 1rem;
-    padding-left: 1rem;
-    border-left: solid 1px;
-  }
-  
-  table,
-  th,
-  td {
-    border: 1px solid black;
-    border-collapse: collapse;
-  }
-  
-  .missions-table {
-    width: 95%;
-    margin-left: 2%;
-    margin-top: 4%;
-  }
-  
-  .mission-title {
-    width: 15%;
-  }
-  
-  .mission-descritption {
-    width: 60%;
-  }
-  
-  .bg-variant {
-    background-color: black;
-  }
-  
-  .mission-status {
-    width: 15%;
-  }
-  
-  .join-btn {
-    margin-left: 10%;
-    width: 80%;
-  }
-  
-  .membership-btn {
-    margin-left: 10%;
-    width: 80%;
-  }
-  
-  .side_card {
-    width: 40%;
-  }
-  
-  .profileTable {
-    width: 100% !important;
-  }
-  
-  .profileTable tr {
-    border: 1px solid #545454;
-  }
-  
-  .profileTable td {
-    font-size: 14px;
-    padding: 10px 20px;
-  }
-  
-  .my_profil {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-  }
+  width: 100vw;
+  height: 100vh;
+}
+
+header {
+  width: 100%;
+  height: 12%;
+  display: flex;
+  border-bottom: solid 1px grey;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  display: flex;
+}
+
+.logo {
+  width: 3rem;
+  height: 3rem;
+  margin-left: 3rem;
+}
+
+header h2 {
+  margin-left: 1rem;
+}
+
+nav {
+  color: #00f;
+  margin-right: 5%;
+}
+
+nav .active {
+  text-decoration: underline;
+}
+
+.menu-item1 {
+  text-decoration: none;
+}
+
+.menu-item2 {
+  text-decoration: none;
+  margin-left: 1rem;
+}
+
+.bg {
+  background-color: white;
+  height: 10rem;
+}
+
+.menu-item3 {
+  text-decoration: none;
+  margin-left: 1rem;
+  padding-left: 1rem;
+  border-left: solid 1px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.missions-table {
+  width: 95%;
+  margin-left: 2%;
+  margin-top: 4%;
+}
+
+.mission-title {
+  width: 15%;
+}
+
+.mission-descritption {
+  width: 60%;
+}
+
+.bg-variant {
+  background-color: black;
+}
+
+.mission-status {
+  width: 15%;
+}
+
+.join-btn {
+  margin-left: 10%;
+  width: 80%;
+}
+
+.membership-btn {
+  margin-left: 10%;
+  width: 80%;
+}
+
+.side_card {
+  width: 40%;
+}
+
+.profileTable {
+  width: 100% !important;
+}
+
+.profileTable tr {
+  border: 1px solid #545454;
+}
+
+.profileTable td {
+  font-size: 14px;
+  padding: 10px 20px;
+}
+
+.my_profil {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}

@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`display rockets component snapshot renders properly 1`] = `
+<div
+  className="rocketContainer"
+>
+  <img
+    alt="rocket"
+    className="imgContainer"
+    src=""
+  />
+  <div
+    className="displayInfo"
+  >
+    <h1
+      className="headerText"
+    />
+    <p
+      className="descriptionTxt"
+    />
+    <button
+      className="buttonStyle"
+      onClick={null}
+      type="button"
+    >
+      Reserve Rocket
+    </button>
+  </div>
+</div>
+`;

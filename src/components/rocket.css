@@ -1,0 +1,38 @@
+.rocketContainer {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  padding: 20px;
+  gap: 30px;
+}
+
+button {
+  background: #047bfe;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  height: 30px;
+  width: 150px;
+}
+
+.cancelButton {
+  width: 200px;
+  border: 1px solid #7e868e;
+  border-radius: 3px;
+  color: #788189;
+  background: #fff;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+span {
+  border-radius: 3px;
+  background: #18a2b9;
+  color: #fff;
+  font-weight: bold;
+  padding: 2.5px;
+  margin-right: 7px;
+}
