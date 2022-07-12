@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`display missions component snapshot renders properly 1`] = `
+<table
+  className="missions-table"
+>
+  <thead>
+    <tr>
+      <th
+        className="mission-title"
+      >
+        Mission
+      </th>
+      <th
+        className="mission-description"
+      >
+        Description
+      </th>
+      <th
+        className="mission-status"
+      >
+        status
+      </th>
+      <th
+        className="mission-status"
+      >
+         
+      </th>
+    </tr>
+  </thead>
+  <tbody />
+</table>
+`;
